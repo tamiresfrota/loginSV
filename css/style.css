@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    max-width: 75px;
+    height: auto;
+}
+h2{
+    font-size: 28px;
+}
+
+.animation img{
+    width: 807px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(184, 192, 192);
+    
+}
+
+.content {
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+}
+
+.first-column{
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+}
+
+.second-column{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+
+}
+.second-column p{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding-left: 20px;
+
+}
+
+.custom-link{
+    flex-direction: column;
+}
+
+.label-input{
+    text-align: left;
+}
+
+.input-control{
+    
+    width: 360px;
+    height: 35px;
+}
+.btn{
+    width: 360px;
+    height: 35px;
+    background-color: #F65D09;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-check label{
+    font-size: 15px;
+}
