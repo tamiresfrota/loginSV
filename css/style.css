@@ -154,3 +154,37 @@ h2{
     font-weight: bold;
 }
 
+@media screen and (max-width: 959px) {
+    .content {
+        flex-direction: column;
+        width: 90%;
+        height: 60%;
+    }
+
+    .second-column {
+        display: none;
+    }
+
+    .first-column {
+        width: 80%;
+    }
+
+    .first-column h2{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .first-column p{
+        padding: 0px;
+        text-align: center;
+        max-width: none;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .input-control,
+    .btn {  
+        width: 100%;
+    }
+}
